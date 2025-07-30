@@ -1,0 +1,8 @@
+plt.figure(figsize=(10, 6))
+plt.scatter(df['Votes'], df['Imdb_rating'], alpha=0.5, color='steelblue', edgecolor='white')
+plt.xlabel('Number of Votes')
+plt.ylabel('IMDb Rating')
+plt.title('Votes vs IMDb Rating (IMDb Top 250)')
+plt.grid(True, linestyle='--', alpha=0.6)
+plt.tight_layout()
+plt.show()
